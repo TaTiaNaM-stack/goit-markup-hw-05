@@ -23,6 +23,14 @@
       <path fill="#4d5ae5" d="M12 16c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" style="fill:var(--color1, #4d5ae5)"/>
       <path fill="none" stroke="#2e2f42" stroke-linecap="round" stroke-width="1.667" d="M30.167 4.833v22.333" style="stroke:var(--color2, #2e2f42)"/>
     </symbol>
+    <symbol id="icon-person-none" viewBox="0 0 32 32">
+      <path fill="#111" d="M12 16c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"/>
+      <path fill="none" stroke-linecap="round" stroke-width="1.667" d="M30.167 4.833v22.333"/>
+    </symbol>
+    <symbol id="icon-person-black" viewBox="0 0 32 32">
+      <path d="M12 16c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"/>
+      
+    </symbol>
     <symbol id="icon-telegram" viewBox="0 0 32 32">
       <path fill="#fff" d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z" style="fill:var(--color3, #fff)"/>
     </symbol>
