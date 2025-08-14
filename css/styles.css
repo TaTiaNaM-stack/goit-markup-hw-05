@@ -705,8 +705,8 @@ ul {
      
 }
 
-.popup:hover .popup-x,
-.popup:focus .popup-x{
+.popup-x:hover svg,
+.popup-x:focus svg{
     fill: #fff;
 }
 
