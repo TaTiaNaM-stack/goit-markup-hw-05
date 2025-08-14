@@ -705,8 +705,8 @@ ul {
      
 }
 
-.popup:hover ..popup-x,
-.popup:focus ..popup-x{
+.popup:hover .popup-x,
+.popup:focus .popup-x{
     fill: #fff;
 }
 
