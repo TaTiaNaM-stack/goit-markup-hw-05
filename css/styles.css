@@ -159,7 +159,7 @@ color: #4d5ae5;
 }
 
 .section{
-    
+    margin: auto;
     padding-bottom: 120px;
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -407,7 +407,6 @@ p{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 1440px;
 }
 
 .actives{
@@ -551,7 +550,6 @@ margin-bottom: 16px;
 
 .icon-down{
     fill: #f4f4fd;
-    margin-left: 16px;
 }
 
 .down-button{
@@ -587,7 +585,6 @@ margin-bottom: 16px;
 }
 
 .form-field{
-    display: flex;
     flex-direction: row;
     margin-right: 0;
     margin-bottom: 24px;
@@ -611,7 +608,6 @@ margin-bottom: 16px;
 }
 
 .form-input{
-    margin-top: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
