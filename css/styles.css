@@ -22,8 +22,6 @@ img{
 
 .container{
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -37,12 +35,6 @@ img{
 .page-header{
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-header{
@@ -142,33 +134,23 @@ color: #4d5ae5;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation:hover,
 .navigation:focus{
     color: #404bbf;
 }
-.contact{
-  
-}
-.contact:hover {
-    color: #404bbf;
-}
+
 .contact:focus{
     color: #404bbf;
 }
 
-.section{
-    margin: auto;
-    padding-bottom: 120px;
-    max-width: 1440px;
+.big-title{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-
-.big-title{
     background-color: #2e2f42;
     padding: 188px 0;
     margin-left: auto;
@@ -277,23 +259,19 @@ align-items: center;
 justify-content: center;
 }
 
-.icon-antenna-1{
-    margin: 24px 100px;
-}
-
 .title{
    margin-bottom: 8px; 
 }
 
 .team{
     background-color: #F4F4FD;
+    padding: 120px;
 }
 
 .title-team{
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .list-team{
@@ -306,8 +284,7 @@ justify-content: center;
     background-color: #fff;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .about-people{
@@ -410,8 +387,10 @@ p{
 }
 
 .actives{
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
-    height: 420px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -429,7 +408,7 @@ p{
      overflow: hidden;
 }
 
-.description:hover .txt-change{
+.actives:hover .txt-change{
     transform: translateY(0);
 }
 
@@ -463,8 +442,7 @@ p{
 }
 
 .txt-card{
-    margin-top: 32px;
-    margin-left: 16px;
+    padding: 32px 16px;
 }
 
 .txt-p{
@@ -478,7 +456,6 @@ p{
 .down{
     background-color: #2e2f42;
     padding: 100px 0;
-    display: flex;
 }
 
 .down-container{
@@ -524,7 +501,6 @@ margin-bottom: 16px;
     align-items: center;
     gap: 16px;
     padding: 0;
-    margin-top: 16px;
     list-style-type: none;
 }
 
