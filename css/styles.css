@@ -526,6 +526,7 @@ margin-bottom: 16px;
 
 .icon-down{
     fill: #f4f4fd;
+    margin-left: 16px; 
 }
 
 .down-button{
