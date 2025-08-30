@@ -23,12 +23,13 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
-    gap: 332px;
+    justify-content: space-between;
 }
 
 
@@ -265,7 +266,7 @@ justify-content: center;
 
 .team{
     background-color: #F4F4FD;
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .title-team{
@@ -366,6 +367,7 @@ p{
 
 .section-portfolio{
     padding-top: 120px;
+    padding-bottom: 116px;
 }
 
 .title-portfolio{
@@ -387,9 +389,7 @@ p{
 }
 
 .actives{
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -443,6 +443,9 @@ p{
 
 .txt-card{
     padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .txt-p{
@@ -548,8 +551,6 @@ margin-bottom: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    margin-left: 24px;
 }
 
 .txt-active-submit{
@@ -564,8 +565,7 @@ margin-bottom: 16px;
 .form-field{
     flex-direction: row;
     margin-right: 0;
-    margin-bottom: 24px;
-    margin-left: 80px;
+    margin-left: auto;
     
 }
 
@@ -636,7 +636,7 @@ ul {
 .popup{
     border-radius: 4px;
     width: 408px;
-    height: 80%;
+    
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
@@ -723,7 +723,6 @@ ul {
 }
 
 .popup-input{
-    margin-bottom: 8px;
     height: 40px;
     width: 100%;
      background-color: transparent;
@@ -795,14 +794,10 @@ ul {
 #user-privacy:checked + .popup-label > .span-checkbox{
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: transparent;
 }
 
-#user-privacy:checked + .popup-label > .span-checkbox svg{
-    background-color: #4d5ae5;
-    border: 1px solid #4d5ae5;
-    opacity: 1;
-}
+
 
 .span-checkbox{
     fill: transparent;
@@ -812,12 +807,10 @@ ul {
 .popup-checkbox:checked ~ .span-checkbox{
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: transparent;
 }
 
-.span-checkbox svg{
-    opacity: 0;
-}
+
  
 .popup-label{
     font-weight: 400;
