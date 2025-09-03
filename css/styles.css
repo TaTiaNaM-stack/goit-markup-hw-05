@@ -22,7 +22,7 @@ img{
 
 .container{
     width: 1158px;
-    margin: 0 auto;
+    margin-left: auto;
     padding: 0 15px;
 }
 
@@ -39,7 +39,6 @@ img{
 }
 
 .logo-header{
-    padding: 24px 0;
     margin-right: 76px;
     text-decoration: none;
     font-weight: 700;
